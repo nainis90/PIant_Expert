@@ -115,27 +115,28 @@ También tiene en cuenta estas situaciones:
 
 ![Explicación del diagnóstico](capturas/explicacion.png)
 
-## 9. Pruebas del sistema
+## 9. Pruebas y validación del sistema
 
-La aplicación incluye siete escenarios para comprobar cómo funciona el motor:
+La aplicación incluye siete escenarios para comprobar el funcionamiento del motor de inferencia.
 
-1. Alternariosis.
-2. Oídio.
-3. Mildiu tardío.
-4. Datos insuficientes.
-5. Caso sin regla compatible: grietas en el fruto.
-6. Diagnóstico diferencial con varias causas.
-7. Respuestas incompatibles.
+| Caso de prueba | Resultado esperado | Resultado obtenido |
+|---|---|---|
+| Alternariosis | Identificar la alternariosis. | Identifica la alternariosis mediante la regla R1_ALT. |
+| Oídio | Identificar el oídio. | Identifica el oídio mediante la regla R2_OID. |
+| Mildiu tardío | Identificar el mildiu tardío. | Identifica el mildiu mediante la regla R3_MIL_2. |
+| Datos insuficientes | Avisar de que falta información. | Indica que la información es insuficiente. |
+| Grietas en el fruto | Indicar que ninguna regla encaja. | Indica que no hay ninguna regla compatible. |
+| Diagnóstico diferencial | Mostrar varias causas posibles. | Muestra oídio y mildiu tardío. |
+| Respuestas incompatibles | Detectar respuestas contradictorias. | Detecta el conflicto entre suelo seco y suelo encharcado. |
 
-Estas pruebas permiten comprobar cómo responde el sistema tanto en casos habituales como en situaciones problemáticas.
+**Evidencias de las pruebas:**
 
-**Captura 4. Barra de pruebas**
+- `capturas/diagnostico.png`: ejemplo de diagnóstico.
+- `capturas/explicacion.png`: explicación de las reglas y síntomas.
+- `capturas/pruebas.png`: escenarios disponibles para realizar las pruebas.
+- `capturas/caso-problematico.png`: ejemplo de respuestas incompatibles.
 
-![Casos de prueba de PlantExpert](capturas/pruebas.png)
-
-**Captura 5. Resultado de un caso problemático**
-
-![Resultado de una prueba problemática](capturas/caso-problematico.png)
+Estas pruebas permiten comprobar el funcionamiento del sistema en casos habituales y en situaciones problemáticas.
 
 ## 10. Tecnologías utilizadas
 
