@@ -1,4 +1,4 @@
-# 🌱 PlantExpert Pro
+# PlantExpert Pro
 
 **Sistema experto para el diagnóstico de enfermedades y problemas del cultivo de tomate.**
 
