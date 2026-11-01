@@ -174,15 +174,17 @@ npm run dev
 
 ## 12. Fuentes de información
 
-Para crear la base de conocimiento hemos consultado fuentes de información agronómica sobre enfermedades y problemas del cultivo de tomate.
+Para preparar la base de conocimiento y las reglas hemos consultado las siguientes fuentes agronómicas:
 
-Estas fuentes nos han servido para conocer los síntomas y preparar las reglas del sistema.
+- **Alternariosis:** [Early Blight on Tomatoes – UC IPM](https://ipm.ucanr.edu/home-and-landscape/early-blight-on-tomatoes/)
+- **Oídio:** [Powdery Mildew on Tomato – UC IPM](https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-tomato/)
+- **Mildiu tardío:** [Late Blight of Tomato and Potato – University of Minnesota Extension](https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight)
+- **Mancha bacteriana:** [Tomato Leaf Spot Diseases – University of Minnesota Extension](https://es.extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/tomato-leaf-spot-diseases)
+- **Problemas de riego:** [Water Excess or Deficiency – UC IPM](https://ipm.ucanr.edu/home-and-landscape/water-excess-or-deficiency/)
+- **Problemas nutricionales:** [Nutrient Deficiencies (Vegetables) – UC IPM](https://ipm.ucanr.edu/home-and-landscape/nutrient-deficiencies-vegetables/)
+- **Oídio del tomate:** [Guía de Gestión Integrada de Plagas – Ministerio de Agricultura](https://www.mapa.gob.es/es/agricultura/temas/sanidad-vegetal/solanaceas_web_metadatos_v03_protegida_tcm30-576872.pdf)
 
-**Fuentes consultadas:**
-
-- [UC IPM](https://ipm.ucanr.edu/)
-- [University of Minnesota Extension](https://extension.umn.edu/)
-- [Ministerio de Agricultura, Pesca y Alimentación](https://www.mapa.gob.es/)
+Estas fuentes se han utilizado como referencia para identificar síntomas y preparar las reglas del sistema.
 
 ## 13. Limitaciones
 
