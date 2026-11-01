@@ -242,9 +242,7 @@ Limitaciones:
 
 ### 14.4. Conclusión
 
-En los tres casos comparados, ambos sistemas llegaron a resultados similares. PlantExpert Pro ofrece diagnósticos basados en reglas definidas y permite consultar cómo se ha obtenido cada resultado. ChatGPT ofrece respuestas más flexibles y explicaciones más amplias.
-
-Los dos sistemas sirven como herramientas de orientación, pero sus resultados deben comprobarse antes de tomar decisiones sobre el cultivo.
+En los tres casos comparados, los dos sistemas dieron resultados algo iguales. PlantExpert Pro da diagnósticos basados en reglas definidas y consulta cómo se ha obtenido los resultados. ChatGPT nos da respuestas más flexibles y explicaciones más largas.
 
 ---
 
