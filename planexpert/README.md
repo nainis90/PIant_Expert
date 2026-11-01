@@ -196,6 +196,56 @@ Estas fuentes se han utilizado como referencia para identificar síntomas y prep
 - Las recomendaciones sirven como orientación.
 - Los resultados deben revisarse antes de tomar decisiones sobre el cultivo.
 
+## 14. Comparación con ChatGPT
+
+Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y ChatGPT.
+
+### 14.1. Resultados de la comparación
+
+| Caso | PlantExpert Pro | ChatGPT |
+|---|---|---|
+| Alternariosis | Identifica alternariosis mediante la regla R1_ALT. | Identifica alternaria o tizón temprano. |
+| Diagnóstico diferencial | Identifica oídio (R2_OID) y mildiu (R3_MIL_1). | También identifica oídio y mildiu. |
+| Datos insuficientes | Indica que falta información para obtener un diagnóstico. | Reconoce que faltan datos y solicita más información. |
+
+### 14.2. Comparación de explicaciones y fuentes
+
+PlantExpert Pro muestra las reglas activadas, los síntomas coincidentes, las explicaciones, las recomendaciones y las fuentes relacionadas con el diagnóstico.
+
+ChatGPT ofrece explicaciones más desarrolladas y puede indicar qué información necesita para orientar mejor el diagnóstico. Sin embargo, en los tres casos probados no proporcionó enlaces concretos a fuentes.
+
+### 14.3. Ventajas y limitaciones
+
+**PlantExpert Pro**
+
+Ventajas:
+- Utiliza reglas definidas para realizar los diagnósticos.
+- Muestra las reglas activadas y los síntomas coincidentes.
+- Incluye explicaciones, recomendaciones y fuentes.
+
+Limitaciones:
+- Solo reconoce los problemas incluidos en su base de conocimiento.
+- Necesita que el usuario responda a las preguntas.
+- No analiza fotografías de las plantas.
+
+**ChatGPT**
+
+Ventajas:
+- Ofrece explicaciones más amplias y detalladas.
+- Puede orientar sobre qué información falta.
+- Utiliza un lenguaje sencillo y fácil de entender.
+
+Limitaciones:
+- No siempre proporciona fuentes verificables.
+- Sus respuestas pueden variar.
+- Puede ofrecer diagnósticos incorrectos si la información es insuficiente.
+
+### 14.4. Conclusión
+
+En los tres casos comparados, ambos sistemas llegaron a resultados similares. PlantExpert Pro ofrece diagnósticos basados en reglas definidas y permite consultar cómo se ha obtenido cada resultado. ChatGPT ofrece respuestas más flexibles y explicaciones más amplias.
+
+Los dos sistemas sirven como herramientas de orientación, pero sus resultados deben comprobarse antes de tomar decisiones sobre el cultivo.
+
 ---
 
 **PlantExpert Pro**
