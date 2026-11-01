@@ -150,7 +150,7 @@ Estas pruebas permiten comprobar cómo responde el sistema tanto en casos habitu
 
 El repositorio también tiene el archivo `prolog/plantexpert.pl`, que creamos durante el desarrollo.
 
-Sin embargo, el diagnóstico principal de la aplicación se hace con el motor de reglas local desarrollado en TypeScript. No hace falta conectar un servidor SWI-Prolog para utilizar el diagnóstico.
+Pero el diagnóstico principal de la aplicación se hace con el motor de reglas local desarrollado en TypeScript. No hace falta conectar un servidor SWI-Prolog para utilizar el diagnóstico.
 
 ## 11. Instalación y ejecución
 
