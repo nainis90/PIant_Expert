@@ -20,11 +20,10 @@ PlantExpert Pro ofrece resultados orientativos. No sustituye el diagnóstico de 
 
 ## 3. Acceso a la aplicación
 
-**Aplicación publicada:** Pendiente de publicación.
+**Aplicación publicada:** https://piantexpert.ai.studio
 
-**Repositorio de GitHub:** [PlantExpert Pro](https://github.com/)
+**Repositorio de GitHub:** https://github.com/nainis90/PIant_Expert
 
-Cuando la aplicación esté publicada, añadiremos aquí su enlace.
 
 ## 4. Ejemplo de uso
 
