@@ -45,7 +45,15 @@ El funcionamiento de PlantExpert Pro es sencillo:
 
 ![Ejemplo de diagnóstico](capturas/diagnostico.png)
 
-## 5. Problemas que contempla
+## 5. Vídeos de demostración
+
+A continuación se incluyen los vídeos individuales que muestran el funcionamiento de PlantExpert Pro:
+
+- **Vídeo 1 - Maitane:** [PlantExpert-Maitane](https://youtu.be/9RQTot_OdhAç)
+- **Vídeo 2 - Byron:** [PlantExpert-Byron](https://www.youtube.com/watch?v=SbFhu_9x9mA)
+
+
+## 6. Problemas que contempla
 
 El sistema trabaja con seis grupos de problemas:
 
@@ -56,31 +64,31 @@ El sistema trabaja con seis grupos de problemas:
 - Problemas de riego, como falta o exceso de agua.
 - Carencias y problemas nutricionales.
 
-## 6. Los cinco componentes del sistema experto
+## 7. Los cinco componentes del sistema experto
 
-### 6.1. Interfaz de usuario
+### 7.1. Interfaz de usuario
 
 Está desarrollada con React y TypeScript. Nos permite responder preguntas sobre los síntomas de la planta y consultar los resultados.
 
-### 6.2. Base de conocimiento
+### 7.2. Base de conocimiento
 
 Tiene los hechos, síntomas y reglas que tienen relación con los problemas del cultivo de tomate. La información se ha preparado a partir de fuentes agronómicas.
 
-### 6.3. Motor de inferencia
+### 7.3. Motor de inferencia
 
 Está desarrollado en TypeScript. Analiza las respuestas del usuario y las compara con las reglas disponibles para obtener posibles diagnósticos.
 
-### 6.4. Sistema de explicación
+### 7.4. Sistema de explicación
 
 Muestra los síntomas que coinciden, las reglas activadas, las posibles causas y las fuentes de información.
 
-### 6.5. Adquisición de conocimiento
+### 7.5. Adquisición de conocimiento
 
 En el proyecto se pueden añadir nuevos problemas, síntomas y reglas. Antes de meterlos, hay que revisar las fuentes, comprobar que no haya contradicciones y hacer pruebas.
 
 La actualización del conocimiento se hace desde los archivos del proyecto, no desde un formulario de la aplicación.
 
-## 7. Base de conocimiento y reglas
+## 8. Base de conocimiento y reglas
 
 El sistema usa reglas del tipo:
 
@@ -102,7 +110,7 @@ Estas son las reglas que utiliza el motor local:
 
 Las reglas relacionan los síntomas con posibles causas. No confirman por sí solas que la planta tenga una enfermedad.
 
-## 8. Funcionamiento del motor y casos especiales
+## 9. Funcionamiento del motor y casos especiales
 
 El motor analiza los hechos afirmativos y comprueba qué reglas se cumplen.
 
@@ -117,7 +125,7 @@ También tiene en cuenta estas situaciones:
 
 ![Explicación del diagnóstico](capturas/explicacion.png)
 
-## 9. Pruebas y validación del sistema
+## 10. Pruebas y validación del sistema
 
 La aplicación incluye siete escenarios para comprobar el funcionamiento del motor de inferencia.
 
@@ -141,7 +149,7 @@ La aplicación incluye siete escenarios para comprobar el funcionamiento del mot
 Estas pruebas permiten comprobar el funcionamiento del sistema en casos habituales y en situaciones problemáticas.
 
 
-## 10. Tecnologías utilizadas
+## 11. Tecnologías utilizadas
 
 - **Google AI Studio:** entorno que hemos utilizado para desarrollar la aplicación.
 - **React:** lo utilizamos para crear la interfaz.
@@ -156,7 +164,7 @@ El repositorio también tiene el archivo `prolog/plantexpert.pl`, que creamos du
 
 Pero el diagnóstico principal de la aplicación se hace con el motor de reglas local desarrollado en TypeScript. No hace falta conectar un servidor SWI-Prolog para utilizar el diagnóstico.
 
-## 11. Instalación y ejecución
+## 12. Instalación y ejecución
 
 Para ejecutar el proyecto en un ordenador hay que tener instalado Node.js y npm.
 
@@ -176,7 +184,7 @@ npm run dev
 
 5. Abrir en el navegador la dirección local que aparece en la terminal.
 
-## 12. Fuentes de información
+## 13. Fuentes de información
 
 Para preparar la base de conocimiento y las reglas hemos consultado las siguientes fuentes agronómicas:
 
@@ -190,11 +198,11 @@ Para preparar la base de conocimiento y las reglas hemos consultado las siguient
 
 Estas fuentes se han utilizado como referencia para identificar síntomas y preparar las reglas del sistema.
 
-## 13. Comparación con ChatGPT
+## 14. Comparación con ChatGPT
 
 Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y ChatGPT. 
 
-### 13.1. Resultados de la comparación
+### 14.1. Resultados de la comparación
 
 | Caso | PlantExpert Pro | ChatGPT |
 |---|---|---|
@@ -202,14 +210,14 @@ Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y
 | Diagnóstico diferencial | Identifica oídio (R2_OID) y mildiu (R3_MIL_1). | También identifica oídio y mildiu. |
 | Datos insuficientes | Indica que falta información para obtener un diagnóstico. | Reconoce que faltan datos y solicita más información. |
 
-### 13.2. Comparación de explicaciones y fuentes
+### 14.2. Comparación de explicaciones y fuentes
 
 PlantExpert Pro muestra las reglas activadas, los síntomas coincidentes, las explicaciones, las recomendaciones y las fuentes relacionadas con el diagnóstico.
 
 ChatGPT ofrece explicaciones más desarrolladas y puede indicar qué información necesita para orientar mejor el diagnóstico. Sin embargo, en los tres casos probados no proporcionó enlaces concretos a fuentes
 
 
-### 13.3. Ventajas y limitaciones
+### 14.3. Ventajas y limitaciones
 
 **PlantExpert Pro**
 
@@ -235,11 +243,11 @@ Limitaciones:
 - Sus respuestas pueden variar.
 - Puede ofrecer diagnósticos incorrectos si la información es insuficiente.
 
-### 13.4. Resultado de la comparación
+### 14.4. Resultado de la comparación
 
 En los tres casos comparados, los dos sistemas dieron resultados algo iguales. PlantExpert Pro da diagnósticos basados en reglas definidas y consulta cómo se ha obtenido los resultados. ChatGPT nos da respuestas más flexibles y explicaciones más largas.
 
-## 14. Limitaciones
+## 15. Limitaciones
 
 - El sistema está pensado para algunos problemas concretos del cultivo de tomate.
 - No analiza fotografías de las plantas.
