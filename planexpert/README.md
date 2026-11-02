@@ -140,6 +140,7 @@ La aplicación incluye siete escenarios para comprobar el funcionamiento del mot
 
 Estas pruebas permiten comprobar el funcionamiento del sistema en casos habituales y en situaciones problemáticas.
 
+
 ## 10. Tecnologías utilizadas
 
 - **Google AI Studio:** entorno que hemos utilizado para desarrollar la aplicación.
@@ -191,7 +192,7 @@ Estas fuentes se han utilizado como referencia para identificar síntomas y prep
 
 ## 13. Comparación con ChatGPT
 
-Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y ChatGPT.
+Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y ChatGPT. 
 
 ### 13.1. Resultados de la comparación
 
@@ -205,7 +206,8 @@ Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y
 
 PlantExpert Pro muestra las reglas activadas, los síntomas coincidentes, las explicaciones, las recomendaciones y las fuentes relacionadas con el diagnóstico.
 
-ChatGPT ofrece explicaciones más desarrolladas y puede indicar qué información necesita para orientar mejor el diagnóstico. Sin embargo, en los tres casos probados no proporcionó enlaces concretos a fuentes.
+ChatGPT ofrece explicaciones más desarrolladas y puede indicar qué información necesita para orientar mejor el diagnóstico. Sin embargo, en los tres casos probados no proporcionó enlaces concretos a fuentes
+
 
 ### 13.3. Ventajas y limitaciones
 
