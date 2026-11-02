@@ -43,7 +43,7 @@ export const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
         </div>
 
        {/* Navigation tabs */}
-<div className="flex border-b border-[#52796F]/15 bg-[#FAFBF7] px-6 gap-2 overflow-x-auto text-xs font-medium">
+<div className="flex flex-wrap items-center border-b border-[#52796F]/15 bg-[#FAFBF7] px-4 gap-2 overflow-x-auto text-xs font-medium min-h-12 py-2">
 
   <button
     type="button"
