@@ -21,7 +21,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="border-b border-[#52796F]/20 bg-[#FFFFFF] sticky top-0 z-30 shadow-xs">
       {/* Top Bar Contract: 3 zones separated by gap-8 */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 min-h-16 flex flex-wrap items-center justify-between gap-4 py-3">
         {/* Zone 1: Wordmark */}
         <div className="flex items-center gap-3 shrink-0">
           <button
@@ -43,7 +43,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Zone 2: Navigation Links (concise, single-line) */}
-        <nav className="hidden md:flex items-center gap-6 text-xs sm:text-sm font-medium text-[#465E55]" aria-label="Navegación principal">
+        <nav className="hidden md:flex flex-wrap items-center gap-4 lg:gap-6 text-xs sm:text-sm font-medium text-[#465E55]" aria-label="Navegación principal">
           <button
             onClick={() => setActiveTab('cuestionario')}
             className={`whitespace-nowrap shrink-0 transition-colors cursor-pointer py-1 ${
