@@ -24,6 +24,8 @@ PlantExpert Pro ofrece resultados orientativos. No sustituye el diagnóstico de 
 
 **Repositorio de GitHub:** [PlantExpert Pro](https://github.com/nainis90/PIant_Expert)
 
+**Planificación del proyecto:** [Tablero de Trello](https://trello.com/b/rglOdXBe/sistemas-expertos)
+
 ## 4. Ejemplo de uso
 
 El funcionamiento de PlantExpert Pro es sencillo:
@@ -187,20 +189,11 @@ Para preparar la base de conocimiento y las reglas hemos consultado las siguient
 
 Estas fuentes se han utilizado como referencia para identificar síntomas y preparar las reglas del sistema.
 
-## 13. Limitaciones
-
-- El sistema está pensado para algunos problemas concretos del cultivo de tomate.
-- No analiza fotografías de las plantas.
-- No contempla todas las enfermedades ni todos los problemas posibles.
-- Algunos síntomas pueden coincidir entre distintas causas.
-- Las recomendaciones sirven como orientación.
-- Los resultados deben revisarse antes de tomar decisiones sobre el cultivo.
-
-## 14. Comparación con ChatGPT
+## 13. Comparación con ChatGPT
 
 Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y ChatGPT.
 
-### 14.1. Resultados de la comparación
+### 13.1. Resultados de la comparación
 
 | Caso | PlantExpert Pro | ChatGPT |
 |---|---|---|
@@ -208,13 +201,13 @@ Se han comparado tres casos utilizando los mismos síntomas en PlantExpert Pro y
 | Diagnóstico diferencial | Identifica oídio (R2_OID) y mildiu (R3_MIL_1). | También identifica oídio y mildiu. |
 | Datos insuficientes | Indica que falta información para obtener un diagnóstico. | Reconoce que faltan datos y solicita más información. |
 
-### 14.2. Comparación de explicaciones y fuentes
+### 13.2. Comparación de explicaciones y fuentes
 
 PlantExpert Pro muestra las reglas activadas, los síntomas coincidentes, las explicaciones, las recomendaciones y las fuentes relacionadas con el diagnóstico.
 
 ChatGPT ofrece explicaciones más desarrolladas y puede indicar qué información necesita para orientar mejor el diagnóstico. Sin embargo, en los tres casos probados no proporcionó enlaces concretos a fuentes.
 
-### 14.3. Ventajas y limitaciones
+### 13.3. Ventajas y limitaciones
 
 **PlantExpert Pro**
 
@@ -240,9 +233,19 @@ Limitaciones:
 - Sus respuestas pueden variar.
 - Puede ofrecer diagnósticos incorrectos si la información es insuficiente.
 
-### 14.4. Conclusión
+### 13.4. Resultado de la comparación
 
 En los tres casos comparados, los dos sistemas dieron resultados algo iguales. PlantExpert Pro da diagnósticos basados en reglas definidas y consulta cómo se ha obtenido los resultados. ChatGPT nos da respuestas más flexibles y explicaciones más largas.
+
+## 14. Limitaciones
+
+- El sistema está pensado para algunos problemas concretos del cultivo de tomate.
+- No analiza fotografías de las plantas.
+- No contempla todas las enfermedades ni todos los problemas posibles.
+- Algunos síntomas pueden coincidir entre distintas causas.
+- Las recomendaciones sirven como orientación.
+- Los resultados deben revisarse antes de tomar decisiones sobre el cultivo.
+
 
 ---
 
